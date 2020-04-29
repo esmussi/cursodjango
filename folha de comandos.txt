@@ -19,3 +19,24 @@ Criar tabelas no banco de dados
 Criar superusuário
     python manage.py createsuperuser
 
+Criar app
+    python manage.py startapp (website - nome da app)
+
+Criar git repositorio
+    git init
+
+Mostrar historico do repositório
+    git status
+
+Fazer um commit
+    git add .
+    git commit -m "First commit"
+    git push origin master
+    git push -u origin master (só na primeira vez)
+
+Add remote
+    git remote add origin endereço
+    git remote add origin https://github.com/esmussi/cursodjango.git
+
+Listar branchs
+    git branch -v
